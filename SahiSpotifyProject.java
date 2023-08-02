@@ -39,8 +39,8 @@ import se.michaelthelin.spotify.requests.data.tracks.GetAudioFeaturesForSeveralT
 public class SahiSpotifyProject {
 	private static final String FILE_NAME = "src/test/resources/SpotifyFeatures.xlsx";
 	 
-	private static final String clientId = "8d59008787624c91a1e433c1a8e94c2d";
-	private static final String clientSecret = "eabe9b4f1e8e47ff83a497af8840c21b";
+	private static final String clientId = "";
+	private static final String clientSecret = "";
 
 	private static final SpotifyApi spotifyApi = new SpotifyApi.Builder().setClientId(clientId)
 			.setClientSecret(clientSecret).build();
